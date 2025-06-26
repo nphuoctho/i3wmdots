@@ -1,0 +1,3 @@
+ghostty
+i3-gaps
+lazydocker
