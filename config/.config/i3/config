@@ -1,0 +1,22 @@
+# Khởi chạy terminal
+bindsym $mod+T exec kitty
+
+# Khóa màn hình
+bindsym $mod+Shift+l exec betterlockscreen -l
+
+# Launcher
+bindsym $mod+d exec rofi -show drun
+
+# Âm lượng
+bindsym XF86AudioRaiseVolume exec pamixer -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+bindsym XF86AudioMute exec pamixer -t
+
+# Độ sáng
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+
+# Thanh trạng thái
+bar {
+    status_command polybar main
+}

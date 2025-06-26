@@ -1,6 +1,10 @@
+# ----------------------------------------------------------- // Base Development Tools
+base-devel                                                    # essential tools for building packages
+
 # ----------------------------------------------------------- // Display Manager & Security
 lightdm                                                       # lightweight display manager
-betterlockscreen                                              # lock screen utility with blur effects
+lightdm-gtk-greeter                                           # GTK+ greeter for LightDM
+polkit-gnome                                                  # gnome authentication agent for polkit
 
 # ----------------------------------------------------------- // Screenshot & Media
 maim                                                          # screenshot utility
@@ -11,15 +15,36 @@ firefox                                                       # mozilla web brow
 qutebrowser                                                   # keyboard-driven vim-like browser
 
 # ----------------------------------------------------------- // Audio & Display
+pipewire                                                      # audio/video server
+pipewire-pulse                                                # pipewire pulseaudio client
+wireplumber                                                   # pipewire session manager
+pavucontrol                                                   # pulseaudio volume control
 pamixer                                                       # pulseaudio command line mixer
 brightnessctl                                                 # brightness control utility
 polybar                                                       # status bar for i3/bspwm
 
 # ----------------------------------------------------------- // System Utilities
 xclip                                                         # command line clipboard interface
+udiskie                                                       # manage removable media
+fastfetch                                                     # system information fetch tool
+
+# ----------------------------------------------------------- // Archive & Compression
+zip                                                           # create and modify zipfiles
+unzip                                                         # extract and view files in zip archives
+7zip                                                          # file archiver for extremely high compression
+
+# ----------------------------------------------------------- // Network & Connectivity
+networkmanager                                                # network manager
+network-manager-applet                                        # network manager system tray utility
+
+# ----------------------------------------------------------- // Bluetooth
+bluez                                                         # bluetooth protocol stack
+bluez-utils                                                   # bluetooth utility cli
+blueman                                                       # bluetooth manager gui
 
 # ----------------------------------------------------------- // Shell & Terminal
 zsh                                                           # z shell with advanced features
+fzf                                                           # command-line fuzzy finder
 alacritty                                                     # gpu-accelerated terminal emulator
 kitty                                                         # fast terminal emulator
 
@@ -27,6 +52,7 @@ kitty                                                         # fast terminal em
 picom                                                         # compositor for transparency and effects
 
 # ----------------------------------------------------------- // Text Editors & File Management
+vim                                                           # vi improved text editor
 neovim                                                        # vim-based text editor
 yazi                                                          # terminal file manager
 dolphin                                                       # kde file manager
@@ -40,7 +66,7 @@ tmux                                                          # terminal multipl
 
 # ----------------------------------------------------------- // Development & Containers
 docker                                                        # containerization platform
-docker-compose                                               # tool for defining multi-container apps
+docker-compose                                                # tool for defining multi-container apps
 nodejs                                                        # javascript runtime
 npm                                                           # node package manager
 python                                                        # python programming language
