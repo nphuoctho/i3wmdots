@@ -1,0 +1,6 @@
+# ----------------------------------------------------------- // Terminal
+ghostty                                                       # fast terminal emulator built with zig
+
+# ----------------------------------------------------------- // Development Tools
+lazydocker                                                    # terminal ui for docker and docker-compose
+lazysql                                                       # terminal ui for sql database management

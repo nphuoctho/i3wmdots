@@ -1,0 +1,50 @@
+# ----------------------------------------------------------- // Display Manager & Security
+lightdm                                                       # lightweight display manager
+betterlockscreen                                              # lock screen utility with blur effects
+
+# ----------------------------------------------------------- // Screenshot & Media
+maim                                                          # screenshot utility
+feh                                                           # lightweight image viewer and wallpaper setter
+
+# ----------------------------------------------------------- // Web Browsers
+firefox                                                       # mozilla web browser
+qutebrowser                                                   # keyboard-driven vim-like browser
+
+# ----------------------------------------------------------- // Audio & Display
+pamixer                                                       # pulseaudio command line mixer
+brightnessctl                                                 # brightness control utility
+polybar                                                       # status bar for i3/bspwm
+
+# ----------------------------------------------------------- // System Utilities
+xclip                                                         # command line clipboard interface
+
+# ----------------------------------------------------------- // Shell & Terminal
+zsh                                                           # z shell with advanced features
+alacritty                                                     # gpu-accelerated terminal emulator
+kitty                                                         # fast terminal emulator
+
+# ----------------------------------------------------------- // Window Manager & Compositor
+picom                                                         # compositor for transparency and effects
+
+# ----------------------------------------------------------- // Text Editors & File Management
+neovim                                                        # vim-based text editor
+yazi                                                          # terminal file manager
+dolphin                                                       # kde file manager
+
+# ----------------------------------------------------------- // Application Launcher & Notifications
+rofi                                                          # application launcher and dmenu replacement
+dunst                                                         # notification daemon
+
+# ----------------------------------------------------------- // Terminal Multiplexer
+tmux                                                          # terminal multiplexer
+
+# ----------------------------------------------------------- // Development & Containers
+docker                                                        # containerization platform
+docker-compose                                               # tool for defining multi-container apps
+nodejs                                                        # javascript runtime
+npm                                                           # node package manager
+python                                                        # python programming language
+
+# ----------------------------------------------------------- // Version Control
+git                                                           # distributed version control system
+lazygit                                                       # terminal ui for git commands
