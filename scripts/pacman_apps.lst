@@ -74,3 +74,6 @@ python                                                        # python programmi
 # ----------------------------------------------------------- // Version Control
 git                                                           # distributed version control system
 lazygit                                                       # terminal ui for git commands
+
+# ----------------------------------------------------------- // Gaming & Emulation
+dolphin                                                       # gamecube and wii emulator
