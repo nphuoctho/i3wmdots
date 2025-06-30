@@ -13,5 +13,3 @@
 # Dịch vụ cho i3wm
 lightdm|system|enable start          # Display manager (hoặc sddm, gdm tùy cấu hình)
 dunst|user|enable start              # Hệ thống thông báo
-network-manager|system|enable start  # Quản lý mạng
-bluetooth|system|enable start        # Dịch vụ Bluetooth
