@@ -77,6 +77,7 @@ i3wmdots/
 - **Application Launcher:** [Rofi](https://github.com/davatorium/rofi)
 - **Notifications:** [Dunst](https://dunst-project.org/)
 - **Terminal Multiplexer:** [tmux](https://github.com/tmux/tmux/wiki)
+- **Redshift:** [redshift](https://wiki.archlinux.org/title/Redshift)
 
 ## 🎨 Recommendations
 ### Wallpapers
