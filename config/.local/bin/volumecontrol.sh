@@ -51,7 +51,7 @@ change_volume() {
   [ "${sign}" = "+" ] && [ "${vol}" = "100" ] && notify_vol 100 "..." && exit 0
   [ "${sign}" = "-" ] && [ "${vol}" = "0" ] && notify_vol 0 "..." && exit 0
 
-  wpctl set-volume @DEFAULT_SINK@ "$step%$sign"
+  pactl set-volume @DEFAULT_SINK@ "$step%$sign"
   vol=$(pamixer --get-volume)
 
   [ "${action}" = "d" ] && sign="\-"
@@ -60,7 +60,7 @@ change_volume() {
 }
 
 toggle_mute() {
-  wpctl set-mute @DEFAULT_SINK@ toggle
+  pactl set-mute @DEFAULT_SINK@ toggle
   notify_mute
 }
 
