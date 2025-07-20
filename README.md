@@ -135,7 +135,7 @@ The installation scripts use the following package lists:
 - `polybar`
 - `xclip`
 - `zsh`
-- `alacritty`
+- `redshift`
 - `ghostty`
 - `picom`
 - `neovim`
